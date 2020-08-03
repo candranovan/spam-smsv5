@@ -33,17 +33,21 @@ def mapclub():
         sys.exit()
 os.system("clear")
 time.sleep(1)
-print ("[!] Loading Cuk...")
-print ("Orang sabar disayang tuhan:)")
+print ("\033[1;96m[!] Loading Cuk...")
+print ("\033[1;96mOrang sabar disayang tuhan:)")
 time.sleep(10)
 os.system("clear")
+time.sleep(1)
 print ("""\033[1;97mSPAM SMS UNLIMITED
-\033[1;97mCreator:\033[1;96mMR.GRIMX72
-\033[1;97mYoutube:\033[1;96mBelum Ada
-\033[1;97mContoh Nomor:\033[1;96mGunakan 62
+\033[90m-------------------------------
+\033[1;97mCreator:\033[1;96m MR.GRIMX72
+\033[1;97mYoutube:\033[1;96m Belum Ada
+\033[1;97mContoh Nomor:\033[1;96m Gunakan 62
 \033[90m-------------------------------""")
 no = input("\033[1;97mNo Target: \033[1;92m")
 for i in range(1,4):
     sleep(1)
     marco()
     mapclub()
+print ("\033[1;96m[!] Kalau ada kendala hub.+6285708302016")
+sys.exit()
